@@ -1,0 +1,67 @@
+/* Getting the new tags to behave */
+.col1, .col2, .col3, .cols {float:left}
+.cols {width:471px}
+.col1 {width:354px}
+
+
+#page6 .col1 {width:578px}
+#page6 .col2 {width:250px}
+#page6 .pad_left2 {padding-left:70px}
+
+/* Left & Right alignment */
+
+
+.wrapper {width:100%;overflow:hidden}
+
+.main {	margin:0 auto;width:970px}
+
+ !important;height:100%;margin:0 auto -118px}
+
+.body2 {background:url(../images/bg_footer.png) top center repeat-x;height:117px}
+
+.button {display:inline-block;border:1px solid #e0f0f4;width:95px;text-align:center;font-size:15px;color:#39baf8;line-height:45px;border-radius:15px;-moz-border-radius:15px;-webkit-border-radius:15px;position:relative;text-decoration:none}
+.button strong {font-weight:normal;border:1px solid #fff;display:block;height:45px;background:url(../img/bg_button.gif) top repeat-x #f3fafb;border-radius:15px;-moz-border-radius:15px;-webkit-border-radius:15px;position:relative} 
+.button:hover {color:#000}
+.address {width:350px;float:left;font-size:15px}
+/*;font-weight:bold*/
+
+#ContactForm span {float:left;width:94px;line-height:24px}
+#ContactForm a {margin-left:10px;float:right}
+#ContactForm textarea {overflow:auto;width:462px;border:1px solid #e0f0f4;background:#fff;padding:3px 10px;color:#000;font:13px Arial, Helvetica, sans-serif;height:164px;margin:0}
+
+
+@media screen and (max-width:900px){
+    #ContactForm{
+        width:100%;
+        margin:0 10px;
+            
+    }
+    
+    #page6 .col1, .coli2{
+        width:100%;
+    }
+
+      
+     #page6 .main, article{
+        width:100%;
+        margin:1px;
+    }
+}
+
+
+@media screen and (max-width:900px){
+    #ContactForm a{
+        float:left;
+        
+            
+    }
+    
+    @media screen and (max-width:900px){
+    #ContactForm textarea{
+        
+        width:160px;
+            
+    }
+    }
+
+
